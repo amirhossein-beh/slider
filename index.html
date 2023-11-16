@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/output.css">
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/app-jq.js" defer></script>
+    <title>amirhossien</title>
+</head>
+<body class="flex flex-col h-screen w-full m-0 items-center justify-center relative">
+    <div id="slider" class="slider transition-all flex justify-center h-screen w-screen overflow-hidden">
+        <div class="slide hidden active animate-pulse1">
+            <img class="w-full" src="./assete/Clear-nighte.jpg" alt="">
+        </div>
+        <div class="slide bg-center bg-no-repeat bg-cover hidden animate-pulse1">
+            <img src="./assete/cloudy-day.jpg" alt="">
+        </div>
+        <div class="slide bg-center bg-no-repeat bg-cover hidden animate-pulse1">
+            <img  src="./assete/cloudy-nighte.jpg" alt="">
+        </div>
+        <div class="slide bg-center bg-no-repeat bg-cover hidden animate-pulse1">
+            <img src="./assete/snow-day.jpg" alt="">
+        </div>
+        <div class="slide bg-center bg-no-repeat  bg-cover hidden animate-pulse1">
+            <img src="./assete/snow-nighte.jpg" alt="">
+        </div>
+        <div class="slide bg-center bg-no-repeat  bg-cover hidden animate-pulse1 brightness-50">
+            <img src="./assete/sunny-day.jpg" alt="">
+        </div>
+    </div>
+    <a class="next absolute top-2/4 right-12 text-white  cursor-pointer hover:bg-white hover:rounded hover:text-black"><i class="ri-arrow-right-line"></i></a>
+    <a class="prev absolute top-2/4 left-12 text-white cursor-pointer hover:bg-white hover:rounded hover:text-black"><i class="ri-arrow-left-line"></i></a>
+    <div class="dotes flex absolute bottom-1">
+    </div>
+</body>
+</html>
